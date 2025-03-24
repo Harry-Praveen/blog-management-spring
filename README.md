@@ -37,9 +37,15 @@ mvn spring-boot:run
 
 **📡 API Endpoints**
 Method	Endpoint	Description
+
 POST	/api/blogs	Create a new blog
+
 GET	/api/blogs	Get all blogs (paginated)
+
 GET	/api/blogs/{id}	Get blog by ID
+
 PUT	/api/blogs/{id}	Update blog
+
 DELETE	/api/blogs/{id}	Delete blog
+
 GET	/api/blogs/{id}/summary	Get AI-generated summary
